@@ -27,7 +27,7 @@ export function Home() {
                     </box>
                 </box>
                 <box width="35%" alignItems="center" height="100%" paddingLeft="10%" >
-                    <box marginTop={10} width="100%" backgroundColor="black" padding={1}>
+                    <box marginTop={10} width="100%" backgroundColor="black" padding={3}>
                         <text fg="yellow" attributes={TextAttributes.BOLD}>{"{"}</text>
                         <text fg="yellow" marginTop={1}>{`  PersonalData: {`}</text>
                         <text fg="yellow" marginTop={1}>{`        "name" : "Gowtham C D",`}</text>
@@ -43,6 +43,9 @@ export function Home() {
                         <text fg="yellow">{`        "mobile" : "9003538951",`}</text>
                         <text fg="yellow">{`  }`}</text>
                         <text fg="yellow" attributes={TextAttributes.BOLD}>{"}"}</text>
+                    </box>
+                    <box marginTop={2}>
+                        <text fg="yellow" bg="black" width="100%"><a href="https://drive.google.com/file/d/1GRA7px064CmkX7BCCcIK2VVZQyqTSQ0g/view?usp=sharing">{"                 Main PortFolio Site                 "}</a></text>
                     </box>
                 </box>
             </box>
