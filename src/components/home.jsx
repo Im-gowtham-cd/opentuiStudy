@@ -45,7 +45,7 @@ export function Home() {
                         <text fg="yellow" attributes={TextAttributes.BOLD}>{"}"}</text>
                     </box>
                     <box marginTop={2}>
-                        <text fg="yellow" bg="black" width="100%"><a href="https://drive.google.com/file/d/1GRA7px064CmkX7BCCcIK2VVZQyqTSQ0g/view?usp=sharing">{"                 Main PortFolio Site                 "}</a></text>
+                        <text fg="yellow" bg="black" width="100%"><a href="https://portiis.pages.dev/Im-gowtham-cd">{"           portiis.pages.dev/Im-gowtham-cd           "}</a></text>
                     </box>
                 </box>
             </box>
