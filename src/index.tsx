@@ -1,6 +1,7 @@
 import { createCliRenderer, TextAttributes } from "@opentui/core";
 import { createRoot, useKeyboard } from "@opentui/react";
 import { useState } from 'react'
+import { spawn } from 'bun'
 
 import { Navbar, Home } from './components/index'
 import Route from './router/route'
@@ -13,7 +14,10 @@ function App() {
       case "1": return setRoute("home")
       case "2": return setRoute("about")
       case "3": return setRoute("project")
-      case "4": return setRoute("sourcecode")
+      case "4":{
+        spawn(['cmd','/c','start','https://github.com/Im-gowtham-cd/opentuiStudy'])
+        break
+      }
       default: setRoute("home")
     }
   })
