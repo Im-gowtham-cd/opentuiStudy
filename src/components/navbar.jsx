@@ -5,12 +5,12 @@ export function Navbar() {
         <text bg="yellow" fg="black">{"  GoTM  "}</text>
       </box>
       <box width="80%" flexDirection="row" justifyContent="center" gap={10}>
-        <text fg="yellow" >Home</text>
-        <text fg="yellow">About</text>
-        <text fg="yellow">Project</text>
+        <text fg="yellow" >[1] Home</text>
+        <text fg="yellow">[2] About</text>
+        <text fg="yellow">[3] Project</text>
       </box>
       <box flexDirection="row" justifyContent="start" width="10%">
-        <text bg="yellow" fg="black">{"  sourceCode  "}</text>
+        <text bg="yellow" fg="black">{"  [4] sourceCode  "}</text>
       </box>
     </box>
   );
