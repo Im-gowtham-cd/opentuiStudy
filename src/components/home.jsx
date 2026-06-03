@@ -26,7 +26,7 @@ export function Home() {
                         </box>
                     </box>
                 </box>
-                <box width="35%" alignItems="center" height="100%" paddingLeft="10%" >
+                <box width="37%" alignItems="center" height="100%" paddingLeft="10%" >
                     <box marginTop={10} width="100%" backgroundColor="black" padding={3}>
                         <text fg="yellow" attributes={TextAttributes.BOLD}>{"{"}</text>
                         <text fg="yellow" marginTop={1}>{`  PersonalData: {`}</text>
@@ -45,7 +45,7 @@ export function Home() {
                         <text fg="yellow" attributes={TextAttributes.BOLD}>{"}"}</text>
                     </box>
                     <box marginTop={2}>
-                        <text fg="yellow" bg="black" width="100%"><a href="https://portiis.pages.dev/Im-gowtham-cd">{"           portiis.pages.dev/Im-gowtham-cd           "}</a></text>
+                        <text fg="yellow" bg="black" width="100%"><a href="https://portiis.pages.dev/Im-gowtham-cd">{"            portiis.pages.dev/Im-gowtham-cd              "}</a></text>
                     </box>
                 </box>
             </box>
