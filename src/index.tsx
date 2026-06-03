@@ -8,13 +8,12 @@ import Route from './router/route'
 
 
 function App() {
-  const [route, setRoute] = useState("about")
+  const [route, setRoute] = useState("home")
   useKeyboard((key) => {
     switch (key.name) {
       case "1": return setRoute("home")
       case "2": return setRoute("about")
-      case "3": return setRoute("project")
-      case "4":{
+      case "3":{
         spawn(['cmd','/c','start','https://github.com/Im-gowtham-cd/opentuiStudy'])
         break
       }
