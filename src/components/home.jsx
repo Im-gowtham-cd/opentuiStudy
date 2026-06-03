@@ -27,7 +27,7 @@ export function Home() {
                     </box>
                 </box>
                 <box width="35%" alignItems="center" height="100%" paddingLeft="10%" >
-                    <box marginTop={10} width="100%"  backgroundColor="black" padding={1}>
+                    <box marginTop={10} width="100%" backgroundColor="black" padding={1}>
                         <text fg="yellow" attributes={TextAttributes.BOLD}>{"{"}</text>
                         <text fg="yellow" marginTop={1}>{`  PersonalData: {`}</text>
                         <text fg="yellow" marginTop={1}>{`        "name" : "Gowtham C D",`}</text>
@@ -36,6 +36,12 @@ export function Home() {
                         <text fg="yellow">{`        "role" : "FullStack",`}</text>
                         <text fg="yellow">{`        "location" : "IN",`}</text>
                         <text fg="yellow">{`  },`}</text>
+                        <text fg="yellow" marginTop={1}>{`  SocialLink: {`}</text>
+                        <text fg="yellow" marginTop={1}>{`        "github" : `}<a href="https://github.com/Im-gowtham-cd">{`"github.com/Im-gowtham-cd",`}</a></text>
+                        <text fg="yellow">{`        "linkedin" : `}<a href="https://www.linkedin.com/in/im-gowtham-cd/">{`"linkedin.com/im-gowtham-cd",`}</a></text>
+                        <text fg="yellow">{`        "email" : "gowthamcdstudies@gmail.com",`}</text>
+                        <text fg="yellow">{`        "mobile" : "9003538951",`}</text>
+                        <text fg="yellow">{`  }`}</text>
                         <text fg="yellow" attributes={TextAttributes.BOLD}>{"}"}</text>
                     </box>
                 </box>
