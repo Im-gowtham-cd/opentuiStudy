@@ -27,7 +27,7 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
 
-    // Silence TypeScript 6.0 deprecation warnings
-    "ignoreDeprecations": "6.0"
+    // Silence TypeScript 5.0 deprecation warnings
+    "ignoreDeprecations": "5.0"
   }
 }
