@@ -2,7 +2,7 @@
 
 A terminal-based portfolio application built with OpenTUI and React.
 
-## ⚠️ Requirements
+## Requirements
 
 **This package requires Bun runtime** - it will NOT work with Node.js/npm alone.
 
@@ -50,9 +50,9 @@ bun run build
 
 This project uses [OpenTUI](https://github.com/opentui/opentui), a high-performance terminal UI library that requires Bun's FFI capabilities to communicate with its native Zig rendering engine. This provides:
 
-- 🚀 Higher frame rates (no 32 FPS cap like Ink)
-- 💾 Lower memory usage
-- ⚡ Native-speed rendering
+- Higher frame rates (no 32 FPS cap like Ink)
+- Lower memory usage
+- Native-speed rendering
 
 ## Credits
 
