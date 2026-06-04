@@ -1,6 +1,13 @@
 import { TextAttributes } from "@opentui/core"
+import { useKeyboard } from "@opentui/react" 
+import { spawn } from "bun" 
 
 export function Home() {
+    useKeyboard((key)=>{
+        if(key.name == "o"){
+            spawn(['cmd','/c','start','https://portiis.pages.dev/Im-gowtham-cd'])
+        }
+    })
     return (
         <box backgroundColor="yellow" height="90%" width="100%" flexDirection="row">
             <box width="100%" height="100%" alignItems="center" flexDirection="row">
@@ -45,7 +52,7 @@ export function Home() {
                         <text fg="yellow" attributes={TextAttributes.BOLD}>{"}"}</text>
                     </box>
                     <box marginTop={2}>
-                        <text fg="yellow" bg="black" width="100%"><a href="https://portiis.pages.dev/Im-gowtham-cd">{"            portiis.pages.dev/Im-gowtham-cd              "}</a></text>
+                        <text fg="yellow" bg="black" width="100%"><a href="https://portiis.pages.dev/Im-gowtham-cd">{"            [o] portiis.pages.dev/Im-gowtham-cd              "}</a></text>
                     </box>
                 </box>
             </box>

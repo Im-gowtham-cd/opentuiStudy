@@ -1,0 +1,11 @@
+node_modules/
+src/
+*.jsx
+*.ts
+*.tsx
+tsconfig.json
+bun.lock
+.git/
+.gitignore
+.vscode/
+README.md
