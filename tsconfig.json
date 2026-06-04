@@ -25,6 +25,9 @@
     // Some stricter flags (disabled by default)
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noPropertyAccessFromIndexSignature": false
+    "noPropertyAccessFromIndexSignature": false,
+
+    // Silence TypeScript 5.0 deprecation warnings
+    "ignoreDeprecations": "5.0"
   }
 }

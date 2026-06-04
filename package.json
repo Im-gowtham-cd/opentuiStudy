@@ -1,20 +1,27 @@
 {
-  "name": "react",
-  "module": "src/index.tsx",
+  "name": "@im-gowtham-cd/gotm",
+  "version": "2.0.2",
   "type": "module",
-  "private": true,
-  "scripts": {
-    "dev": "bun run --watch src/index.tsx"
+  "bin": {
+    "gotm": "./dist/index.js"
   },
-  "devDependencies": {
-    "@types/bun": "latest"
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "bun": ">=1.0.0"
+  },
+  "scripts": {
+    "dev": "bun run --watch src/index.tsx",
+    "build": "bun build src/index.tsx --outdir dist --format esm --target bun --entry-naming [name].js",
+    "prepublishOnly": "bun run build"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "react": "^19.2.0",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
     "@opentui/core": "^0.3.0",
-    "@opentui/react": "^0.3.0",
-    "react": "^19.2.7"
+    "@opentui/react": "^0.3.0"
   }
 }
