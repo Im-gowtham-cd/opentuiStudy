@@ -1,31 +1,20 @@
 {
   "name": "@im-gowtham-cd/gotm",
-  "version":"1.0.1",
-  "module": "src/index.tsx",
+  "version":"1.1.2",
   "type": "module",
-  "main": "./dist/index.js",
   "bin": {
     "gotm": "./dist/cli.js"
   },
-  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "scripts": {
-    "dev": "bun run --watch src/index.tsx",
-    "build": "tsup"
-  },
-  "devDependencies": {
-    "@types/bun": "latest",
-    "@types/react": "^19.2.16",
-    "tsup": "^8.5.1"
-  },
   "peerDependencies": {
-    "typescript": "^6.0.3"
+    "react": "^19.2.0",
+    "typescript": "^5.0.0"
   },
   "dependencies": {
     "@opentui/core": "^0.3.0",
     "@opentui/react": "^0.3.0",
-    "react": "^19.2.7"
+    "bun": "^1.1.0"
   }
 }
