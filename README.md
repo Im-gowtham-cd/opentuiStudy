@@ -15,6 +15,10 @@ OpenTUI uses Bun's FFI (Foreign Function Interface) to communicate with its Zig 
 curl -fsSL https://bun.sh/install | bash
 ```
 
+```PowerShell
+powershell -c "irm bun.sh/install.ps1 | iex"
+```
+
 ### Install GoTM globally:
 ```bash
 bun install -g @im-gowtham-cd/gotm
